@@ -5,3 +5,21 @@ body{
 .sk3{
     text-align: center;
 }
+.contenedor{
+    display: flex;
+    padding: 20px;
+    }
+.contenido2{
+    margin-left: 50px;
+}
+.titulo{
+    text-align: center;
+}
+.juegos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.juego2{
+    margin-left: 50px;
+}
