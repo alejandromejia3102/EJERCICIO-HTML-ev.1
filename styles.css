@@ -19,6 +19,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
 }
 .juego2{
     margin-left: 50px;
