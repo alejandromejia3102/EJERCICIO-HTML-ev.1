@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ejercicio-final-html</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <div class="sk3">
     <h1>SKATE 3</h1>
     <a
       href="https://http2.mlstatic.com/D_NQ_NP_653614-MLA44513384987_012021-O.webp"
-      ><img src="img/skate3logo.webp" alt="skate3" width="200"
+      ><img src="img/skate33.jpg" alt="skate3" width="700"
     /></a>
+    </div>
+    <hr>
+    <h2>TRAILER</h2>
     <iframe
       width="400"
       height="250"
@@ -20,8 +25,8 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen
     ></iframe>
-    <hr />
-    <h2>Sinopsis</h2>
+    <br />
+    <h2>SINOPSIS</h2>
     <br />
     <p>
       Haz equipo. Deslízate. La galardonada franquicia SKATE regresa para
@@ -32,8 +37,8 @@
       rivales y arrasa por las calles de Port Carverton, el paraíso de cualquier
       skater.
     </p>
-    <hr />
-    <h2>Datos técnicos</h2>
+    <br />
+    <h2>DATOS TÉCNICOS</h2>
     <br />
     <ul>
       <li>
@@ -41,25 +46,28 @@
         <ul>
           <li>
             Play Station 3
-            <img src="img/PlayStation_3_logo.png" alt="ps3" width="55" />
+            <img src="img/ps3bien.png" alt="ps3" width="55" />
           </li>
+          <br>
           <li>
             X-BOX 360
-            <img src="img/xbox360logo.webp" alt="xbox360" width="80" />
+            <img src="img/360b.png" alt="xbox360" width="80" />
           </li>
+          <br>
           <li>
             X-BOX ONE
             <img src="img/X_Box_One_logo.svg.png" alt="xbox_one" width="90" />
           </li>
+          <br>
         </ul>
       </li>
-      <li><b>Desarrollador: </b>EA BLACK BOX</li>
-      <li><b>Género: </b>Deportes</li>
-      <li><b>Fecha de lanzamiento inicial: </b>11 de mayo de 2010</li>
+      <li><b>Desarrollador: </b>EA BLACK BOX</li><br>
+      <li><b>Género: </b>Deportes</li><br>
+      <li><b>Fecha de lanzamiento inicial: </b>11 de mayo de 2010</li><br>
       <li><b>Numero de jugadores permitidos: </b>1</li>
     </ul>
-    <hr />
-    <h2>Críticas</h2>
+    <br />
+    <h2>CRÍTICAS</h2>
     <br />
     <table border="1">
       <caption>
@@ -78,7 +86,7 @@
           <td>8</td>
           <td rowspan="2">
             <a href="https://vandal.elespanol.com/juegos/ps3/skate-3/11371#p-41"
-              ><img src="img/Vandal_logo.svg.png" alt="vandal" width="100"
+              ><img src="img/Vandal_logo.svg.png" alt="vandal" width="150" height="30"
             /></a>
           </td>
         </tr>
@@ -101,20 +109,35 @@
       </tbody>
     </table>
     <hr />
-    <fieldset>
-      <label for="usuario">Usuario (obligatorio)</label>
+    <H2>COMPRA TU JUEGO AQUÍ</H2>
+    <fieldset><legend>PROPORCIONANOS TUS DATOS PERSONALES</legend>
+      <label for="nombre">Nombre</label>
       <br />
-      <input type="text" name="usuario" id="usuario" required />
+      <input type="text" name="nombre" id="nombre" required />
       <br />
-      <label for="nombre">Nombre (opcional)</label>
-      <br />
-      <input type="text" name="nombre" id="nombre" />
-      <br />
-      <label for="coment">Comentario (obligatorio)</label>
-      <br />
-      <textarea name="coment" id="coment" cols="45" rows="15" required></textarea>
-      <br />
-      <input type="submit" value="Enviar" />
+      <label for="dni">DNI</label>
+			<br>
+			<input type="text" name="dni" id="dni" pattern="[0-9]{8}[A-Z]" required>
+      <br>
+      <label for="correo">Correo electronico (opcional)</label>
+      <br><input type="text" name="correo" id="correo" maxlength="50" size="40">
+      
+      <br><label for="pass1">Contraseña</label>
+			<br>
+			<input type="password" name="pass1" id="pass1" required>
+      <input type="submit" value="Comprar" />
+      <h3>POR SOLO 5€ MÁS CAMISETA REGALO COMO LAS DEL JUEGO!!</h3>
+      <br><label for="opcion">DE UNA MARCA A ELEJIR!!:</label>
+      <select name="opcion" id="opcion">
+        <option value="nike">NIKE SB</option>
+        <option value="sc">Santa Cruz</option>
+        <option value="vans">VANS</option>
+        <option value="trasher">Trasher</option>
+        <option value="car">Carhartt</option>
+        <option value="dic">Dickies</option>
+        <option value="adidas">ADIDAS</option>
+      </select>
+      <input type="submit" value="COMPRAR AHORA">
     </fieldset>
   </body>
 </html>
