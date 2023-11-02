@@ -139,44 +139,50 @@
         </tr>
       </tbody>
     </table>
-    <hr />
-    <h2>COMPRA TU JUEGO AQUÍ</h2>
-    <fieldset>
-      <legend>PROPORCIONANOS TUS DATOS PERSONALES</legend>
-      <label for="nombre">Nombre</label>
-      <br />
-      <input type="text" name="nombre" id="nombre" required />
-      <br />
-      <label for="dni">DNI</label>
-      <br />
-      <input type="text" name="dni" id="dni" pattern="[0-9]{8}[A-Z]" required />
-      <br />
-      <label for="correo">Correo electronico (opcional)</label>
-      <br /><input
-        type="text"
-        name="correo"
-        id="correo"
-        maxlength="50"
-        size="40"
-      />
+    <form action="">
+      <fieldset>
+        <legend>PROPORCIONANOS TUS DATOS PERSONALES</legend>
+        <label for="nombre">Nombre</label>
+        <br />
+        <input type="text" name="nombre" id="nombre" required />
+        <br />
+        <label for="dni">DNI</label>
+        <br />
+        <input
+          type="text"
+          name="dni"
+          id="dni"
+          pattern="[0-9]{8}[A-Z]"
+          required
+        />
+        <br />
+        <label for="correo">Correo electronico (opcional)</label>
+        <br /><input
+          type="text"
+          name="correo"
+          id="correo"
+          maxlength="50"
+          size="40"
+        />
 
-      <br /><label for="pass1">Contraseña</label>
-      <br />
-      <input type="password" name="pass1" id="pass1" required />
-      <input type="submit" value="Comprar" />
-      <h3>POR SOLO 5€ MÁS CAMISETA REGALO COMO LAS DEL JUEGO!!</h3>
-      <label for="opcion">DE UNA MARCA A ELEJIR!!:</label>
-      <select name="opcion" id="opcion">
-        <option value="nike">NIKE SB</option>
-        <option value="sc">Santa Cruz</option>
-        <option value="vans">VANS</option>
-        <option value="trasher">Trasher</option>
-        <option value="car">Carhartt</option>
-        <option value="dic">Dickies</option>
-        <option value="adidas">ADIDAS</option>
-      </select>
-      <input type="submit" value="COMPRAR AHORA" />
-    </fieldset>
+        <br /><label for="pass1">Contraseña</label>
+        <br />
+        <input type="password" name="pass1" id="pass1" required />
+        <input type="submit" value="Comprar" />
+        <h3>POR SOLO 5€ MÁS CAMISETA REGALO COMO LAS DEL JUEGO!!</h3>
+        <label for="opcion">DE UNA MARCA A ELEJIR!!:</label>
+        <select name="opcion" id="opcion">
+          <option value="nike">NIKE SB</option>
+          <option value="sc">Santa Cruz</option>
+          <option value="vans">VANS</option>
+          <option value="trasher">Trasher</option>
+          <option value="car">Carhartt</option>
+          <option value="dic">Dickies</option>
+          <option value="adidas">ADIDAS</option>
+        </select>
+        <input type="submit" value="COMPRAR AHORA" />
+      </fieldset>
+    </form>
     <div class="titulo"><h1>TAMBIÉN PODRÍAN INTERESARTE</h1></div>
     <div class="juegos">
       <div class="juego1">
